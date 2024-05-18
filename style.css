@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.Container{
+  width: 1110px;
+  margin: 0 auto;
+}
+
+img{
+  width: 100%;
+  cursor: pointer;
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.topbar{
+  border-bottom: 2px solid black;
+  padding: 5px 0;
+}
+
+.topbar span{
+  border-radius: 2px;
+  padding: 7px 10px;
+  background-color: #222222;
+  color: #fff;
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.content{
+  grid-column: 1/span 2;
+}
+
+.sidebar{
+  
+}
+
+.blog{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.blog img{
+  width: 222.719px;
+  height: 155.891px;
+}
+
+.blog-infor h2{
+  color: darkslategrey;
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.blog-infor h2:hover{
+     color:#4db2ec
+}
+
+.blog-infor h2:active{
+  color: darkblue;
+}
+
+.author-infor .Author{
+  font-family: "open sans", "open sans regular", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #000;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+.author-infor .Author:hover{
+  color: crimson;
+  cursor: pointer;
+}
+
+.author-infor .Author:active{
+  color: chartreuse;
+}
+
+.author-infor .date, .line{
+  font-family: "open sans", "open sans regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #767676;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+.blog-infor p{
+  font-family: "open sans", "open sans regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #767676;
+  font-size: 13px;
+  line-height: 21px;
+}
+ 
+
+
+
+
